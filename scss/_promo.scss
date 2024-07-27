@@ -1,0 +1,32 @@
+.t-promo {
+    padding: 40px 0 114px;
+    background-image: image-set(
+        url("../img/brok-promo-bg.webp") type("image/webp"),
+        
+        url("../img/brok-promo-bg.png") type("image/png") 1x,
+        url("../img/brok-promo-bg-2x.png") type("image/png") 2x
+    );
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    &__content {
+        max-width: 497px;
+        margin-top: 56px;
+    }
+    &__title {
+        margin: 24px 0 16px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: normal;
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 137%;
+        margin-bottom: 24px;
+    }
+    .btn_blue {
+        width: fit-content;
+        
+    }
+}

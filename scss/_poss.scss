@@ -1,0 +1,19 @@
+.poss {
+    padding: 40px 0;
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 80px 48px 0;
+        gap: 120px;
+        // max-width: 1051px;
+    }
+    &__item {
+        img {
+            display: block;
+            margin-bottom: 24px;
+        }
+        .fs_16, .fs_24 {
+            max-width: 431px;
+        }
+    }
+}

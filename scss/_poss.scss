@@ -17,6 +17,21 @@
             gap: 32px;
             margin-top: 40px;
         }
+        &3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 0;
+            margin-top: 40px;
+            
+            .poss__item {
+                border-radius: 12px;
+                box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.12);
+                background: #fff;
+                min-height: 318px;
+                padding: 40px 48px 30px;
+            }
+        }
     }
     &__item {
         img {

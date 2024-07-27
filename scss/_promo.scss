@@ -70,6 +70,46 @@
             margin-top: 0;
         }
     }
+    &-ved {
+        padding-bottom: 112px;
+        background-image: image-set(
+            url("../img/ved-promo-bg.webp") type("image/webp"),
+            
+            url("../img/ved-promo-bg.png") type("image/png") 1x,
+            url("../img/ved-promo-bg-2x.png") type("image/png") 2x
+        );
+        .t-promo {
+            
+            &__title {
+                margin: 26px 0 16px;
+            }
+            &__subtitle {
+                margin-bottom: 22px;
+                max-width: 348px;
+            }
+        }
+    }
+    &-a2c {
+        padding-bottom: 121px;
+        background-image: image-set(
+            url("../img/a2c-promo-bg.webp") type("image/webp"),
+            
+            url("../img/a2c-promo-bg.png") type("image/png") 1x,
+            url("../img/a2c-promo-bg-2x.png") type("image/png") 2x
+        );
+        .t-promo {
+            &__content {
+                margin-top: 65px;
+            }
+            &__title {
+                margin: 30px 0 16px;
+            }
+            &__subtitle {
+                margin-bottom: 22px;
+                max-width: 348px;
+            }
+        }
+    }
     &__content {
         max-width: 497px;
         margin-top: 56px;

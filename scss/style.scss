@@ -55,6 +55,9 @@ details summary::-webkit-details-marker {
     &_w790 {
         max-width: 790px;
     }
+    &_w760 {
+        max-width: 760px;
+    }
 }
 .fs_16 {
     font-size: 16px;
@@ -164,6 +167,17 @@ details summary::-webkit-details-marker {
         text-decoration: none;
         &::after {
             content: '/';
+        }
+        
+    }
+    li {
+        &:last-child {
+            .crumbs__link {
+                &::after {
+                    display: none;
+                }
+            }
+           
         }
     }
 }

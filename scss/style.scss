@@ -52,12 +52,18 @@ details summary::-webkit-details-marker {
     text-align: center;
     max-width: 832px;
     margin: 0 auto;
+    &_w790 {
+        max-width: 790px;
+    }
 }
 .fs_16 {
     font-size: 16px;
 }
 .fs_18 {
     font-size: 18px;
+}
+.fs_20 {
+    font-size: 20px;
 }
 .fs_24 {
     font-size: 24px;
@@ -77,9 +83,19 @@ details summary::-webkit-details-marker {
     font-weight: 600;
 }
 
+.center {
+    text-align: center;
+}
+
 //margins 
+.mb_8 {
+    margin-bottom: 8px;
+}
 .mb_16 {
     margin-bottom: 16px;
+}
+.mb_24 {
+    margin-bottom: 24px;
 }
 .mb_32 {
     margin-bottom: 32px;
@@ -158,3 +174,5 @@ details summary::-webkit-details-marker {
 @import '_broker.scss';
 @import '_form.scss';
 @import '_quest';
+@import '_credits';
+@import '_credit-wins.scss';
